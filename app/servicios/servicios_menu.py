@@ -14,4 +14,4 @@ def actualizar_menu(menu_id: int, menu: MenuCreate):
     return menu_repository.update_menu(menu_id, menu)
 
 def eliminar_menu(menu_id: int):
-    return menu_repository.delete_menu(menu_id)
+    return menu_repository.delete_menu(menu_id) 

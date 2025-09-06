@@ -26,3 +26,6 @@ app = FastAPI(
     title="API Menú Secundario",
     description="Gestión de menús diarios de un secundario",
     version="1.0.0")
+
+def correr():
+    return routes_menu

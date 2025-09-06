@@ -1,7 +1,7 @@
 from pydantic import BaseModel
-from typing import List
 
 class MenuBase(BaseModel):
+    id: int
     dia: str
     principal: str
     guarnicion: str
@@ -9,8 +9,7 @@ class MenuBase(BaseModel):
     postre: str
 
 class MenuCreate(MenuBase):
-    Lista=[
-  {
+    Lista=[{
     "id": 1,
     "dia": "Lunes",
     "principal": "Milanesa con puré",
